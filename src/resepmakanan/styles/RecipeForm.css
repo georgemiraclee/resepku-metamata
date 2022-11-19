@@ -1,0 +1,40 @@
+.RecipeForm {
+    margin-top: 4em;
+}
+
+.RecipeForm-container {
+    width: 40%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.RecipeForm-input {
+    margin-left: 0.5em;
+    margin-right: 3em;
+}
+
+.RecipeForm div {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 700px) {
+    .RecipeForm-container {
+        width: 87%;
+    }
+
+    .RecipeForm-input {
+        margin-right: 1.5em;
+        margin-left: 0.5em;
+        width: 40%;
+    }
+
+    .RecipeForm label {
+        font-size: 0.9em !important;
+    }
+
+    /* .RecipeForm button {
+        height: 30px;
+    } */
+}
